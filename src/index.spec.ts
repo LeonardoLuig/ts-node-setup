@@ -1,7 +1,7 @@
-import Person from "@/index"
+import Person from '@/person'
 
-it("should sum", () => {
+it('should sum', () => {
   const person = new Person()
 
-  expect(person.sayMyName()).toBe("Leonardo")
+  expect(person.sayHello()).toBe('Hello Word!')
 })
